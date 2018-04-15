@@ -33,5 +33,22 @@ h3 {
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.myPuppy {
+    transition: transform 0.3s;
+    width: 300px;
+    box-shadow: 3px 3px 5px #ccc;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+.myPuppy:hover {
+    transform: scale(1.1, 1.1);
 }
